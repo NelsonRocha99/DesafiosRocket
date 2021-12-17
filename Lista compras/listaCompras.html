@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ListaCompras</title>
+<style>
+    
+    fieldset{
+        height: 150px;
+    }
+   
+   .listaCompras{
+        display: flex;
+        flex-direction: column;
+    
+   }
+
+    .items2{
+        display: flex;
+        flex-direction: column;
+    }
+
+   #queijo{
+       position: relative;
+       left: 90px;
+       bottom: 18px;
+   }
+   #presunto{
+       position: relative;
+       left: 90px;
+       bottom: 18px;
+   }
+   #ovos{
+       position: relative;
+       left: 90px;
+       bottom: 18px;
+   }
+    
+   #pao{
+       position: relative;
+       left: 90px;
+       bottom: 18px;
+   }
+
+   .items2{
+       position: relative;
+       left: 250px;
+       bottom: 147px;
+   }
+
+   .items2 input{
+     position: relative;
+       left: 90px;
+       bottom: 18px;
+
+   }
+
+
+
+
+
+</style>
+
+</head>
+<body>
+    <h2>
+        Minha lista de compras
+    </h2>
+    <br>
+        <fieldset> 
+            <legend>Marque as opcões</legend>
+          <div class="listaCompras"> 
+        <label for="queijo">Queijo</label>
+        <input type="checkbox" name="queijo" id="queijo" checked>
+        
+        <label for="presunto">Presunto</label>
+        <input type="checkbox" id="presunto" name="presunto">
+
+        <label for="ovos">Ovos</label>
+        <input type="checkbox" id="ovos" name="ovos">
+
+        <label for="pao">Pão</label>
+        <input type="checkbox" id="pao" name="pao">
+        
+        <div class="items2"> 
+        <label for="macarrao">Macarrao</label>
+        <input type="checkbox" name="macarrao" id="macarrao">
+
+        <label for="feijao">Feijao</label>
+        <input type="checkbox" name="feijao" id="feijao">
+
+        <label for="carne">Carne</label>
+        <input type="checkbox" name="carne" id="carne">
+
+        <label for="frutas">Frutas</label>
+        <input type="checkbox" name="frutas" id="frutas">
+
+
+
+        </div>
+
+
+ 
+
+
+
+  </div>
+        </fieldset>
+
+
+</body>
+</html>
